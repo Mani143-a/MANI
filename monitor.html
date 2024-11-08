@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Quality Monitor - AirWatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-content">
+      <div class="logo">
+        <span class="logo-icon">🌬️</span>
+        <span class="logo-text">AirWatch</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="monitor.html" class="active">Air Monitor</a></li>
+        <li><a href="solutions.html">Solutions</a></li>
+        <li><a href="contact.html">Log in</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="monitor-page">
+    <h1>Real-Time Air Quality Monitor</h1>
+    
+    <div class="city-selector">
+      <button class="city-btn active">Delhi</button>
+      <button class="city-btn">Kolkata</button>
+      <button class="city-btn">Mumbai</button>
+      <button class="city-btn">Hyderabad</button>
+      <button class="city-btn">chennai</button>
+    </div>
+
+    <div class="aqi-main-card">
+      <div class="aqi-header">
+        <h3>Air Quality Index</h3>
+        <div class="aqi-value good">45</div>
+      </div>
+      <p>Current air quality is Good</p>
+    </div>
+
+    <div class="pollutant-grid">
+      <div class="monitor-card">
+        <h3>PM2.5</h3>
+        <div class="value">12</div>
+        <p>Fine particulate matter (μg/m³)</p>
+      </div>
+      <div class="monitor-card">
+        <h3>PM10</h3>
+        <div class="value">25</div>
+        <p>Coarse particulate matter (μg/m³)</p>
+      </div>
+      <div class="monitor-card">
+        <h3>NO₂</h3>
+        <div class="value">30</div>
+        <p>Nitrogen dioxide (ppb)</p>
+      </div>
+      <div class="monitor-card">
+        <h3>O₃</h3>
+        <div class="value">48</div>
+        <p>Ground-level ozone (ppb)</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 AirWatch. All rights reserved.</p>
+  </footer>
+</body>
+</html>
